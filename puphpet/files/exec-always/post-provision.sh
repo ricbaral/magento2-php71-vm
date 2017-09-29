@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Copy nginx configuration
+echo "Copy nginx configuration..."
 cp /vagrant/nginx.conf.vm /etc/nginx/sites-available/_.conf
 
-# Restart nginx
+echo "Restart nginx..."
 service nginx restart
