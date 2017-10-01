@@ -11,11 +11,8 @@ bin/magento deploy:mode:set developer
 echo "Setup Magento 2 cron jobs..."
 bin/magento cron:install
 
-echo "Disable block_html cache..."
-bin/magento cache:disable block_html
-
-echo "Disable full_page cache..."
-bin/magento cache:disable full_page
+echo "Disable cache: block_html and full_page..."
+bin/magento cache:disable block_html full_page
 
 echo
 echo "Frontend URL: http://magento2.dev/"
