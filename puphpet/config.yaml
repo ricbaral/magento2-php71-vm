@@ -21,7 +21,7 @@ vagrantfile:
                 machines:
                     vflm_elq67kt1z0x6:
                         id: magento2
-                        hostname: magento2.dev
+                        hostname: magento2.loc
                         network:
                             private_network: 192.168.56.101
                             forwarded_port:
